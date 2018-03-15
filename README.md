@@ -1,6 +1,6 @@
 # Tetragone
 
-Tetragone is a Javascript layout libraty that will automatically arrange your layout in a satisfying way.
+Tetragone is an ultra-lightweight Javascript layout library that will automatically arrange your layout in a satisfying way.
 
 
 
