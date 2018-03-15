@@ -6,10 +6,10 @@ github.com/m0wh/tetragone
 */
 
 .tetragone > div {
-		padding: 15px; /* Gutters */
-		box-sizing: border-box;
-		display: inline-block;
-		float: left;
+	padding: 15px; /* Gutters */
+	box-sizing: border-box;
+	display: inline-block;
+	float: left;
 }
 .tetragone > div.tg-1 { width: calc(100% / 1);}
 .tetragone > div.tg-2 { width: calc(100% / 2);}
