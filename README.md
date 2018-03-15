@@ -19,6 +19,11 @@ Getting started with Tetragone is super fast :
     </head>
     ...
   ```
+  or using CDN :
+  ```html
+    <link rel="stylesheet" href="https://cdn.rawgit.com/m0wh/tetragone/e409999f/dist/css/tetragone.min.css">
+    <script src="https://cdn.rawgit.com/m0wh/tetragone/e409999f/dist/js/tetragone.min.js"></script>
+  ```
 3. Just before the closing `</body>`, add the following script
   ```html
       ...
