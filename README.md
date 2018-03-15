@@ -14,8 +14,8 @@ Getting started with Tetragone is super fast :
     <head>
       <!-- some meta -->
       <title>...</title>
-      <link rel="stylesheet" href="css/tetragone.css">
-      <script src="js/tetragone.js"></script>
+      <link rel="stylesheet" href="css/tetragone.min.css">
+      <script src="js/tetragone.min.js"></script>
     </head>
     ...
   ```
@@ -30,7 +30,7 @@ Getting started with Tetragone is super fast :
   `tetragone([className],[maxColumns])`  
   *String* `className` : Class name used for the grid container(s).  
   *Integer* `maxColumns` : Max number (1-10) of columns on a same row.
-  
+
 4. Finally, you can add your elements like this
   ```html
   <div class="tetragone">
