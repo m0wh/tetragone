@@ -1,0 +1,30 @@
+// compileExpanded: ../css/tetragone.css
+
+body {
+  width: 1024px;
+  margin: 100px auto;
+  background-color: #f9f9fa;
+}
+.tetragone {
+  > div {
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+    padding: 15px;
+    @for $i from 1 through 10 {
+      &.tg-#{$i} { width: calc(100% / #{$i}); }
+    }
+  }
+}
+
+.interior {
+  background-color: #0a84ff;
+  border-radius: 5px;
+  height: 300px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: 'Montserrat'
+}
